@@ -1,0 +1,9 @@
+puts "retrieving all txt files"
+set files [glob *.txt]
+set count 0
+foreach f [glob *.txt] {
+puts $f
+  incr count
+}
+puts "number of txt files are = [llength $files]"
+puts [format "number of txt files are %d" $count]

@@ -1,0 +1,7 @@
+set f [open "data.txt" a]
+puts $f "guava"
+puts $f "watermelon"
+close $f
+
+
+
